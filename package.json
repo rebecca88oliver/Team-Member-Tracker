@@ -1,19 +1,15 @@
 {
   "name": "team-member-tracker",
   "version": "1.0.0",
-  "description": "tracks employee roles",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "no test""echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rebecca88oliver/Team-Member-Tracker.git"
   },
-  "keywords": [
-    "employee",
-    "tracker"
-  ],
   "author": "rebecca88oliver",
   "license": "MIT",
   "bugs": {
