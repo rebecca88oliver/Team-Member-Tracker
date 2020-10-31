@@ -12,7 +12,7 @@ primary key(id)
 
 CREATE TABLE role(
 id integer auto_increment not null,
-title varchar(30) not null,
+title varchar(50) not null,
 salary decimal not null,
 department_id Integer not null,
 
