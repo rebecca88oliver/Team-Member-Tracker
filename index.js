@@ -2,7 +2,7 @@ const mysql = require("mysql");
 const inquirer = require("inquirer");
 const consoleTable = require("console.table");
 const promisemysql = require("promise-mysql");
-
+var PORT = process.eventNames.PORT || 3360;
 
 var connection = mysql.createConnection({
     host: "localhost",
