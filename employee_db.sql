@@ -64,16 +64,16 @@ VALUES ("Manager", 65000, 5);
 select * from role;
 
 INSERT into employee (first_name, last_name, role_id)
-values ("Jim", "Yester", 3); 
+values ("Jim", "Jones", 3); 
 INSERT into employee (first_name, last_name, role_id)
-values ("Jules", "Alexander", 4);
+values ("Sam", "Smith", 4);
 INSERT into employee (first_name, last_name, role_id)
-values ("Larry", "Ramos", 5);
+values ("Jerry", "Garcia", 5);
 INSERT into employee (first_name, last_name, role_id)
-values ("Russ", "Giguere", 6);
+values ("Emperor", "Kuzko", 6);
 INSERT into employee (first_name, last_name, role_id)
-values ("Ted", "Bluechel", 7);
+values ("Ted", "Bundy", 7);
 INSERT into employee (first_name, last_name, role_id)
-values ("Terry", "Kirkman", 8);
+values ("Jack", "Ripper", 8);
 
 select * from employee;
