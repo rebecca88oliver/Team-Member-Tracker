@@ -1,15 +1,15 @@
-const mysql = require("mysql");
+const mysql2 = require("mysql2");
 const inquirer = require("inquirer");
 const consoleTable = require("console.table");
 const promisemysql = require("promise-mysql");
 var PORT = process.env.PORT || 3360;
 
-var connection = mysql.createConnection({
+var connection = mysql2.createConnection({
     host: "localhost",
     // Your username
     user: "root",
     // Your password
-    password: "surge",
+    password: "",
     database: "employee_db"
 });
 
